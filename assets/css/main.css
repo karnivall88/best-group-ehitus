@@ -10,13 +10,12 @@
     opacity: 0.98;
 
 }
-.teenused-section{
-
-
+textarea{
+    resize: none;
 }
-.portfolio-section{
-
+.no-decoration{
+    list-style-type: none;
 }
-.kontakt-section{
-
+.no-decoration>li{
+    margin: 25px;
 }

@@ -189,21 +189,20 @@
                 <div class="row mt-4 mb-4 d-flex justify-content-around">
                     <!--Contact form-->
                     <div class="col-sm-12 col-md-6">
-                        <form name="contact" method="POST" netlify>
+                        <form name="contact" method="POST" data-netlify data-netlify-honeypot="bot-field">
                             <div class="form-group ">
                                 <label for="name">Nimi</label>
-                                <input type="text" class="form-control form-control-lg" id="name" placeholder="Nimi"
+                                <input type="text" class="form-control form-control-lg" name="Nimi:" id="name" placeholder="Nimi"
                                     required>
                                 <label for="email">Email</label>
-                                <input type="email" class="form-control form-control-lg" id="email" placeholder="email@naidis.ee"
+                                <input type="email" class="form-control form-control-lg" name="Email:" id="email" placeholder="email@naidis.ee"
                                     required>
                                 <label for="title">Pealkiri</label>
-                                <input type="text" class="form-control form-control-lg" id="title" placeholder="Pealkiri"
+                                <input type="text" class="form-control form-control-lg" name="Pealkiri:" id="title" placeholder="Pealkiri"
                                     required>
                                 <label for="title">Sõnum</label>
-                                <textarea class="form-control form-control-lg" id="body" rows="6" placeholder="Sõnum"
+                                <textarea class="form-control form-control-lg" name="Tekst" id="body" rows="6" placeholder="Sõnum"
                                     required></textarea>
-
                             </div>
                             <button type="submit" class="btn btn-success btn-lg mb-2">Saada</button>
                         </form>

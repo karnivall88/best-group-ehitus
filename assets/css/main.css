@@ -23,3 +23,23 @@ textarea{
 
     height: 600px;
 }
+.flag{
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    position: relative;
+    display: inline-block;
+    width: 1.3333333em;
+    line-height: 1em;
+    
+}
+.flag:before{
+    content: "\00a0"
+}
+.flag-ee{
+    background-image: url("../img/estonia.svg");
+
+}
+.flag-ru{
+    background-image: url("../img/russia.svg");
+}
